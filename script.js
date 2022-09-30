@@ -3,7 +3,7 @@
 const account1 = {
   owner: 'Jonas Schmedtmann',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
-  interestRate: 1.2, // %
+  interestRate: 1.2,
   pin: 1111,
 
   movementsDates: [
@@ -17,7 +17,7 @@ const account1 = {
     '2022-08-31T10:51:36.790Z',
   ],
   currency: 'EUR',
-  locale: 'pt-PT', // de-DE
+  locale: 'pt-PT',
 };
 
 const account2 = {
@@ -151,9 +151,9 @@ createUsername(accounts);
 
 const updateUI = function (acc) {
 
-  // // Display Time
-  // labelDate.textContent = new Date();
-  // console.log(labelDate.value);
+  // Display Time
+  labelDate.textContent = new Date();
+  console.log(labelDate.value);
 
   // Display Movements
   displayMovements(acc);
